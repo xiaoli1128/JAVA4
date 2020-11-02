@@ -1,0 +1,31 @@
+# JAVA4
+Java课程作业项目仓库
+
+# 阅读程序
+## 实验目的
+1.掌握Java中抽象类和抽象方法的定义； 
+2.掌握Java中接口的定义，熟练掌握接口的定义形式以及接口的实现方法
+3.了解异常的使用方法，并在程序中根据输入情况做异常处理
+## 实验过程
+1.设计两个管理接口：学生管理接口和教师管理接口。学生接口必须包括缴纳学费、查学费的方法；教师接口包括发放薪水和查询薪水的方法。
+2.设计博士研究生类，实现上述的两个接口，该博士研究生应具有姓名、性别、年龄、每学期学费、每月薪水等属性。（其他属性及方法，可自行发挥）
+3.编写测试类，并实例化至少两名博士研究生，统计他们的年收入和学费。根据两者之差，算出每名博士研究生的年应纳税金额（国家最新工资纳税标准，请自行检索）。
+## 核心方法
+1.public interface Studentlnterface {
+	public abstract void setFee(int a);
+	public abstract int getFee();
+ }
+2.public interface Teacherlnterface {
+	public abstract void setPay(int a);
+	public abstract int getPay();
+}
+3.public String toString()
+	{
+	return "姓名："+this.name+"性别："+this.sex+"年龄："+this.age+"学费："+this.fee+"工资："+this.pay;
+	}
+	public static void main(String[] args)
+ ## 实验结果
+  
+ ## 实验感想
+ 通过本次实验，我掌握了Java中抽象类和抽象方法的定义，接口的定义，熟练掌握接口的定义形式以及接口的实现方法，
+了解了异常的使用方法，并学会在程序中根据输入情况做异常处理
